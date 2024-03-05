@@ -48,7 +48,7 @@ class FileCacheDatabase extends Dexie {
   }
 }
 
-export type FileCacheProps = {
+type FileCacheProps = {
   /** Name to use for the Dexie.js database. */
   databaseName?: string;
 };
