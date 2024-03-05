@@ -1,0 +1,59 @@
+{
+  "name": "dexie-file-cache",
+  "version": "0.1.0",
+  "description": "Cache files locally in a browser's IndexedDb using Dexie.js",
+  "author": "Matt Holden",
+  "license": "MIT",
+  "homepage": "",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.dt",
+  "scripts": {
+    "build": "rm -rf dist && tsup --dts",
+    "test": "jest"
+  },
+  "tsup": {
+    "entry": [
+      "src/index.ts"
+    ],
+    "sourcemap": true,
+    "clean": true
+  },
+  "dependencies": {
+    "debug": "^4.3.4",
+    "dexie": "^3.2.4",
+    "fflate": "^0.8.0"
+  },
+  "devDependencies": {
+    "@types/debug": "^4.1.12",
+    "@types/jest": "^29.5.12",
+    "eslint": "^8.57.0",
+    "eslint-config-next": "^14.1.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-simple-import-sort": "^10.0.0",
+    "fake-indexeddb": "^5.0.2",
+    "jest": "^29.6.2",
+    "prettier": "^3.2.4",
+    "ts-jest": "^29.1.2",
+    "tsup": "^8.0.1",
+    "typescript": "^5.3.3"
+  },
+  "keywords": [
+    "dexie",
+    "indexeddb",
+    "file",
+    "cache"
+  ],
+  "files": [
+    "dist",
+    "src"
+  ],
+  "prettier": {
+    "printWidth": 90,
+    "tabWidth": 2,
+    "useTabs": false
+  }
+}
