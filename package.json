@@ -1,6 +1,6 @@
 {
   "name": "dexie-file-cache",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Cache files locally in a browser's IndexedDb using Dexie.js",
   "author": "Matt Holden",
   "license": "MIT",
@@ -10,7 +10,7 @@
     "url": "https://github.com/holdenmatt/dexie-file-cache"
   },
   "main": "dist/index.js",
-  "types": "dist/index.d.dt",
+  "types": "dist/index.d.ts",
   "scripts": {
     "build": "rm -rf dist && tsup --dts",
     "test": "jest"
