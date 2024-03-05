@@ -1,6 +1,7 @@
 # dexie-file-cache
 
-Cache files locally in a browser's IndexedDb using Dexie.js
+Cache files locally in a browser's IndexedDb using
+[Dexie.js](https://dexie.org/).
 
 Used by [ChartPilot.com](https://chartpilot.com).
 
